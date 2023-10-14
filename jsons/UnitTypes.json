@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Flying",
+        "movementType": "Land",
+        "uniques": ["[+1] Sight","Can pass through impassable tiles"]
+    },
+    {
+        "name": "Magical",
+        "movementType": "Land",
+        "uniques":["[+10]% Strength <vs [Sword] units>","[-90]% Strength <when fighting in [Badlands] tiles>"]
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Flying Magical",
+        "movementType": "Land",
+        "uniques": ["[+1] Sight","Can pass through impassable tiles","[+10]% Strength <vs [Sword] units>","[+10]% Strength <vs [Flying] units>","[-50]% Strength <when fighting in [Badlands] tiles>"]
+    },
+    {
+        "name": "Changeling",
+        "movementType": "Land",
+        "uniques": ["[+1] Sight","Can pass through impassable tiles","[+10]% Strength <vs [Sword] units>","[+10]% Strength <vs [Flying] units>","Can only heal by pillaging"]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Flying Machine",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    }
+]

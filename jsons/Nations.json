@@ -1,0 +1,356 @@
+[
+  {
+		"name": "Spectator",
+		"outerColor": [255,255,255],
+    "innerColor": [0,0,0]
+	},
+
+  //PONY
+  {
+    "name": "Equestria",
+    "style": "Pony",
+    "leaderName": "Princess Celestia",
+    "adjective": [
+      "equestrian"
+    ],
+    "startBias": ["Avoid [Tundra]","Avoid [Snow]","Avoid [Desert]"],
+    "preferredVictoryType": "Friendship",
+    "declaringWar": "We regret this, but we have no other choice. It is time to defend harmony.",
+    "attacked": "We thought we could maintain harmony, but we were wrong.",
+    "defeated": "Please have mercy on my ponies.",
+    "introduction": "Greetings, the empire of Equestria welcomes you with pleasure and respect.",
+    "neutralHello": "Greetings. Do you want a cup of tea?",
+    "hateHello": "What do you need?",
+    "tradeRequest": "Do you want to negotiate over a cup of tea?",
+    "outerColor": [
+      99,
+      206,
+      255
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Alicornism",
+    "uniqueName": "Elements of Harmony",
+    "cities": [
+      "Canterlot","Manehattan","Fillydelphia","Whynnyapolis",
+      "Bales","Ponyville","Cloudsdale","Baltimare",
+      "Rockville","Las Pegasus","Vanhoover","Tall Tale",
+      "Appleloosa","Acomage","Whitebell","Vanhoover",
+      "Coltfoalnia","Tall Woods","Fairflanks","Mareposa",
+      "Lavender","Whinnysota","Trotterfield","Mustangia",
+      "Summerdale","Peachwoods","Hoofington","Duskway"
+    ]
+  },
+
+
+  {
+    "name": "Crystal Empire",
+    "style": "Pony",
+    "leaderName": "Princess Cadence",
+    "adjective": [
+      "crystal"
+    ],
+    "startBias": [
+      "Grassland","Tundra"
+    ],
+    "preferredVictoryType": "Cultural",
+    "declaringWar": "Your dictatorship must end now, prepare for war.",
+    "attacked": "the crystal empire will end your tyranny!",
+    "defeated": "Our empire may have fallen, but we will return again!",
+    "introduction": "Greetings, I am Princess Cadenza, leader of the Crystal Empire.",
+    "neutralHello": "Greetings.",
+    "hateHello": "What do you need?",
+    "tradeRequest": "Would you accept this proposal?",
+    "outerColor": [
+      129,
+      87,
+      185
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Alicornism",
+    "uniqueName": "Crystallization",
+    "uniques": [
+      "[+2 Culture] [in all cities]"
+    ],
+    "cities": [
+      "Crystal City","Rainbow Falls","Rubrum","Porridge Town",
+      "Quebuck","Snowybury","Hedgewards","Canterine",
+      "Evergreen","Saraneighvo","Emeraldtop","Ponytown"
+    ]
+  },
+
+
+  {
+    "name": "Stalliongrad",
+    "style": "Pony",
+    "leaderName": "Altidiya",
+    "adjective": ["Stalliongrad"],
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Scientific",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      207,
+      44,
+      37
+    ],
+    "innerColor": [
+      255,
+      251,
+      122
+    ],
+    "favoredReligion": "Starlight's Followers",
+    "uniqueName": "",
+    "uniques": [
+      "[+2 Science] [in all cities]"
+    ],
+    "cities": [
+      "Stalliongrad","Petershoof","Zayatsk","Sovyenok","Zvezdopadovo",
+      "Caramel Marks","Krasivsk","Hoofbeat Krai","Red Wheat Farmlands",
+      "Severokholm"
+    ]
+  },
+
+
+  //CHANELING
+  {
+    "name": "Changeling Lands",
+    "style": "Changeling",
+    "leaderName": "Queen Chrysalis",
+    "adjective": [
+      "changeling"
+    ],
+    "startBias": [
+      "Desert"
+    ],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "I inform you that your insignificant existence is about to end.",
+    "attacked": "Stupid! You will be annihilated!",
+    "defeated": "How did this happen!",
+    "introduction": "Hi, I'm Queen Chrysalis, leader of the changelings, if you're smart enough, you'll get out of our way.",
+    "neutralHello": "What do you want!?",
+    "hateHello": "Get out!",
+    "tradeRequest": "Respond quickly, I don't have all your time.",
+    "outerColor": [
+      34,
+      34,
+      34
+    ],
+    "innerColor": [
+      0,
+      205,
+      38
+    ],
+    "favoredReligion": "Changelism",
+    "uniqueName": "Changeling Infiltration",
+    "uniques": [
+      "[+1 Food] from [Desert] tiles [in all cities]",
+      "[-60]% [Food] [in all cities] <when below [0] Happiness>"
+    ],
+    "cities": [
+      "Vesalipolis","Dytrisium","Vraks","Lyctida",
+      "Soryth","Tainaholm","Kallskog","Svarm",
+      "Hoorornd","Den","Totles","Gorak"
+    ]
+  },
+
+
+  //GRIFFON
+  {
+    "name": "Aquileia",
+    "style": "Griffon",
+    "leaderName": "King Moriset Discret",
+    "adjective": ["aquileian"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      76,
+      39,
+      52
+    ],
+    "innerColor": [
+      167,
+      124,
+      63
+    ],
+    "favoredReligion": "Grogar's Followers",
+    "uniqueName": "The Legacy of Coltbert",
+    "uniques": [
+      "[-10]% Culture cost of adopting new Policies"
+    ],
+    "cities": [
+      "Aquila","Vyzima","Orvalillo","Manetua",
+      "Pridea","Vinovia","Skyaluzzo","Illeagle",
+      "Westkeep","Flowerino","Rila","Crimson Shore",
+      "Meshorio","Pelis"
+    ]
+  },
+
+
+  {
+    "name": "Reichspakt",
+    "style": "Griffon",
+    "leaderName": "Emperor Grover V",
+    "adjective": ["griffonian"],
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Cultural",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      255,
+      77,
+      30
+    ],
+    "innerColor": [
+      252,
+      209,
+      101
+    ],
+    "favoredReligion": "Star Swirl's Followers",
+    "uniqueName": "Reichsarmee",
+    "uniques": [
+      "Great General provides double combat bonus",
+      "New [Melee] units start with [15] Experience [in all cities]"
+    ],
+    "cities": [
+      "Griffenheim","Interriver","Crona","King's Realm",
+      "Brantbeak","Readewetter","De Vleugels","Bronzekreus",
+      "Oldwingburg","Romau","Greenback","Griffing"
+    ]
+  },
+
+
+  /*
+  {
+    "name": "",
+    "style": "",
+    "leaderName": "",
+    "adjective": [""],
+    "startBias": [""],
+    "preferredVictoryType": "",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "",
+    "uniqueName": "",
+    "uniques": [
+      
+    ],
+    "cities": [
+      " "
+    ]
+  },
+  */
+
+
+  //CITY-STATES
+  {
+		"name": "New Mareland",
+    "style": "Pony",
+		"adjective": ["New Mareland"],
+		"cityStateType": "Militaristic",
+    "favoredReligion": "Alicornism",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [111,215,248],
+    "innerColor": [179,46,239],
+		"cities": ["New Mareland"]
+	},
+
+
+  {
+		"name": "Our Town",
+    "style": "Pony",
+		"adjective": ["Our Town"],
+		"cityStateType": "Magical",
+    "favoredReligion": "Starlight's Followers",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [216, 219, 202],
+		"innerColor": [91,91,127],
+		"cities": ["Our Town"]
+	},
+
+
+  {
+		"name": "Puerto Caballo",
+    "style": "Pony",
+		"adjective": ["Puerto Caballo"],
+		"cityStateType": "Militaristic",
+    "favoredReligion": "Alicornism",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [18,48,122],
+    "innerColor": [255,255,255],
+		"cities": ["Puerto Caballo"]
+	},
+
+
+  {
+		"name": "Tenochtitlan",
+    "style": "Pony",
+		"adjective": ["Tenochtitlan"],
+		"cityStateType": "Militaristic",
+    "favoredReligion": "Alicornism",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [139,32,23],
+    "innerColor": [134,238,214],
+		"cities": ["Tenochtitlan"]
+	},
+
+
+  //BARBARIANS
+  {
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
+	}
+]
