@@ -543,6 +543,8 @@
 		"culture": 20,
 		"faith": 10,
 		"requiredTech": "Friendship Theory",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion","Reveals the entire map"]
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion","Reveals the entire map",
+		"Free [Applejack] appears","Free [Fluttershy] appears","Free [Pinkie Pie] appears","Free [Rarity] appears",
+		"Free [Rainbow Dash] appears","Free [Starlight] appears","Free [Twilight] appears"]
 	}
 ]
