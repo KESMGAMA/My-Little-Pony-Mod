@@ -31,6 +31,7 @@
 	},
 	{
 		"name": "Rainbow Dash",
+		"uniqueTo": "Equestria",
 		"unitType": "Flying",
 		"movement": 10,
 		"strength": 180,
