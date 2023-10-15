@@ -5,7 +5,7 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Sword",
 		"movement": 3,
-		"strength": 200,
+		"strength": 120,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -14,7 +14,7 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Civilian",
 		"movement": 3,
-		"strength": 150,
+		"strength": 90,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable"],
 		"promotions": ["Medic","Medic II","Cover I","Cover II"],
 		"attackSound": "whoosh"
@@ -24,8 +24,8 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Siege",
 		"movement": 3,
-		"strength": 180,
-		"rangedStrength": 200,
+		"strength": 100,
+		"rangedStrength": 120,
 		"uniques": ["Unbuildable","[+20] HP when healing","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "cannon"
 	},
@@ -34,7 +34,7 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Flying",
 		"movement": 10,
-		"strength": 180,
+		"strength": 110,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "whoosh"
 	},
@@ -43,8 +43,8 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Magical",
 		"movement": 3,
-		"strength": 160,
-		"rangedStrength": 170,
+		"strength": 100,
+		"rangedStrength": 115,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable","[+1] Sight"],
 		"promotions": ["Cover I","Cover II"],
 		"attackSound": "bombing"
@@ -54,8 +54,8 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Flying Magical",
 		"movement": 4,
-		"strength": 200,
-		"rangedStrength": 230,
+		"strength": 120,
+		"rangedStrength": 140,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unbuildable","[+20] HP when healing"],
 		"attackSound": "bombing"
 	},
@@ -64,8 +64,8 @@
 		"uniqueTo": "Equestria",
 		"unitType": "Flying Magical",
 		"movement": 8,
-		"strength": 200,
-		"rangedStrength": 250,
+		"strength": 120,
+		"rangedStrength": 160,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unbuildable","[+40] HP when healing"],
 		"attackSound": "bombing"
 	},
@@ -291,7 +291,7 @@
 		"obsoleteTech": "Scientific Theory",
 		"upgradesTo": "Magical Gun",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"promotions":["Drill I"],
+		"promotions":["Accuracy I"],
 		"attackSound": "cannon"
 	},
 	{
