@@ -26,8 +26,7 @@
 		"movement": 3,
 		"strength": 180,
 		"rangedStrength": 200,
-		"cost": 185,
-		"uniques": ["[+20] HP when healing","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["Unbuildable","[+20] HP when healing","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "cannon"
 	},
 	{
@@ -49,13 +48,22 @@
 		"attackSound": "bombing"
 	},
 	{
+		"name": "Starlight",
+		"uniqueTo": "Equestria",
+		"unitType": "Magical",
+		"movement": 4,
+		"strength": 200,
+		"rangedStrength": 230,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unbuildable","[+20] HP when healing"],
+		"attackSound": "bombing"
+	},
+	{
 		"name": "Twilight",
 		"uniqueTo": "Equestria",
 		"unitType": "Flying Magical",
 		"movement": 8,
 		"strength": 200,
 		"rangedStrength": 250,
-		"cost": 120,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unbuildable","[+40] HP when healing"],
 		"attackSound": "bombing"
 	},
