@@ -12,7 +12,7 @@
 	{
 		"name": "Fluttershy",
 		"uniqueTo": "Equestria",
-		"unitType": "Civilian",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 90,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable"],
