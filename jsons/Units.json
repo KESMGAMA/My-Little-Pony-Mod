@@ -41,9 +41,10 @@
 	{
 		"name": "Rarity",
 		"uniqueTo": "Equestria",
-		"unitType": "Civilian",
+		"unitType": "Magical",
 		"movement": 3,
-		"strength": 150,
+		"strength": 160,
+		"rangedStrength": 170,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable","[+1] Sight"],
 		"promotions": ["Cover I","Cover II"],
 		"attackSound": "bombing"
@@ -51,7 +52,7 @@
 	{
 		"name": "Starlight",
 		"uniqueTo": "Equestria",
-		"unitType": "Magical",
+		"unitType": "Flying Magical",
 		"movement": 4,
 		"strength": 200,
 		"rangedStrength": 230,
