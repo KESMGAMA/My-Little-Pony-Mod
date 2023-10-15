@@ -651,7 +651,7 @@
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
-				"name": "Magical Specialization",
+				"name": "Magic Specialization",
 				"row": 8,
 				"prerequisites": ["Computers"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
@@ -692,7 +692,7 @@
 			{
 				"name": "Stealth",
 				"row": 8,
-				"prerequisites": ["Robotics", "Magical Specialization"],
+				"prerequisites": ["Robotics", "Magic Specialization"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
