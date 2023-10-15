@@ -1,13 +1,64 @@
 [
-	//EQUESTRIA
-	/*{
+	//MANE 6
+	{
 		"name": "Applejack",
-		"unitType": "Melee",
+		"uniqueTo": "Equestria",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 200,
-		"uniques":["Unbuildable","[+90] HP when healing","Ignores terrain cost"],
+		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost"],
 		"attackSound": "nonmetalhit"
-	},*/
+	},
+	{
+		"name": "Fluttershy",
+		"uniqueTo": "Equestria",
+		"unitType": "Civilian",
+		"movement": 3,
+		"strength": 150,
+		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable"],
+		"promotions": ["Medic","Medic II","Cover I","Cover II"],
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Pinkie Pie",
+		"uniqueTo": "Equestria",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 180,
+		"rangedStrength": 200,
+		"cost": 185,
+		"uniques": ["[+20] HP when healing","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Rainbow Dash",
+		"unitType": "Flying",
+		"movement": 10,
+		"strength": 180,
+		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Rarity",
+		"uniqueTo": "Equestria",
+		"unitType": "Civilian",
+		"movement": 3,
+		"strength": 150,
+		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable","[+1] Sight"],
+		"promotions": ["Cover I","Cover II"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Twilight",
+		"uniqueTo": "Equestria",
+		"unitType": "Flying Magical",
+		"movement": 8,
+		"strength": 200,
+		"rangedStrength": 250,
+		"cost": 120,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unbuildable","[+40] HP when healing"],
+		"attackSound": "bombing"
+	},
 	
 	//BASICS
 	{
@@ -786,7 +837,7 @@
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
-		"requiredTech": "Magical Specialization",
+		"requiredTech": "Magic Specialization",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
@@ -801,7 +852,7 @@
 		"range": 10,
 		"interceptRange": 10,
 		"cost": 425,
-		"requiredTech": "Magical Specialization",
+		"requiredTech": "Magic Specialization",
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Flying Machine] units>"],
 		"attackSound": "jetgun"
