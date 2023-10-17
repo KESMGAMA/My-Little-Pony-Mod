@@ -207,6 +207,45 @@
 
 
   {
+    "name": "Karthinian Pact",
+    "style": "Griffon",
+    "leaderName": "Giulio Beakolini",
+    "adjective": ["karthinian"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      154,
+      65,
+      235
+    ],
+    "innerColor": [
+      255,
+      127,
+      253
+    ],
+    "favoredReligion": "Sombra's Followers",
+    "uniqueName": "Karthinian Totalitarianism",
+    "uniques": [
+      "[+10]% [Production] from every [Factory]","[+25]% Production towards any buildings that already exist in the Capital"
+    ],
+    "cities": [
+      "Karthin","Librarsia","Wrobert","Lowing Gap",
+      "Taloncana","Warthog","Bloodtalon","Falcor",
+      "Thick Territory","Asbolus","Talononte","Peccreto",
+      "Navarro","Luchihoot","Francistria","Eatela",
+      "Roameo","Goldenfeather","Transista","Tarrin"
+    ]
+  },
+
+
+  {
     "name": "Reichspakt",
     "style": "Griffon",
     "leaderName": "Emperor Grover V",
@@ -331,9 +370,25 @@
 
 
   {
+		"name": "Sparleto",
+    "style": "Griffon",
+		"adjective": ["sparletan"],
+		"cityStateType": "Militaristic",
+    "favoredReligion": "Sombra's Followers",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [255,217,155],
+    "innerColor": [219,28,105],
+		"cities": ["Sparleto"]
+	},
+
+
+  {
 		"name": "Tenochtitlan",
     "style": "Pony",
-		"adjective": ["Tenochtitlan"],
+		"adjective": ["tenochtitlan"],
 		"cityStateType": "Militaristic",
     "favoredReligion": "Alicornism",
 
