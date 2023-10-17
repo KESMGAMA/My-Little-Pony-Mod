@@ -88,6 +88,47 @@
 
 
   {
+    "name": "River Coalition",
+    "style": "Pony",
+    "leaderName": "River Swirl",
+    "adjective": ["river"],
+    "startBias": ["Lakes"],
+    "preferredVictoryType": "Friendship",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Star Swirl's Followers",
+    "uniqueName": "Treaty of Coltstream Member",
+    "uniques": [
+      
+    ],
+    "cities": [
+      "Rijekograd","Coltonia","Wild-Vodina","Neighretva",
+      "Coltovac","Jezeragrad","Svetazemlja","Shaymia",
+      "Bucka","Coltubar","Coltsovo","Wittenburgh",
+      "Papaglia","Cemricia","Hengestdelu","Dail Mhòr",
+      "Dìthreabh","Nimbusi","Kataigída","Ptérygapolis",
+      "Buckbanburg","Wolfrest","Despoina","Bakara",
+      "Mareibor","Kotailia","Vetailje"
+    ]
+  },
+
+
+  {
     "name": "Stalliongrad",
     "style": "Pony",
     "leaderName": "Altidiya",
