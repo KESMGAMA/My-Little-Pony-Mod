@@ -155,7 +155,7 @@
     "favoredReligion": "Starlight's Followers",
     "uniqueName": "",
     "uniques": [
-      "[+2 Science] [in all cities]"
+      "[+1 Science] [in all cities]"
     ],
     "cities": [
       "Stalliongrad","Petershoof","Zayatsk","Sovyenok","Zvezdopadovo",
@@ -287,6 +287,43 @@
 
 
   {
+    "name": "Nova Griffonia",
+    "style": "Griffon",
+    "leaderName": "Governor Teafeather",
+    "adjective": ["nova griffonian"],
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Cultural",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      175,
+      120,
+      214
+    ],
+    "innerColor": [
+      252,
+      232,
+      25
+    ],
+    "favoredReligion": "Discord's Followers",
+    "uniqueName": "Griffon Militias",
+    "uniques": [
+      "[+10]% Production when constructing [Melee] units [in all cities]"
+    ],
+    "cities": [
+      "Weter","Lammia","Nouveau Aquila","Broken Skull",
+      "Beside","Kluv Valley","Hillyhills","Yakiborder",
+      "Weidadehudedaier"
+    ]
+  },
+
+
+  {
     "name": "Reichspakt",
     "style": "Griffon",
     "leaderName": "Emperor Grover V",
@@ -362,6 +399,22 @@
 
 
   //CITY-STATES
+  {
+		"name": "Frosthill",
+    "style": "Griffon",
+		"adjective": ["frosthill"],
+		"cityStateType": "Cultured",
+    "favoredReligion": "Star Swirl's Followers",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [239, 180, 0],
+    "innerColor": [0,0,0],
+		"cities": ["New Mareland"]
+	},
+
+
   {
 		"name": "New Mareland",
     "style": "Pony",
