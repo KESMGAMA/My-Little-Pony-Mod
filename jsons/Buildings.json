@@ -111,7 +111,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -540,11 +540,51 @@
 		"name": "Castle of Friendship",
 		"isWonder": true,
 		"uniqueTo": "Equestria",
-		"culture": 20,
-		"faith": 10,
+		"culture": 6,
+		"faith": 6,
 		"requiredTech": "Friendship Theory",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion","Reveals the entire map",
 		"Free [Applejack] appears","Free [Fluttershy] appears","Free [Pinkie Pie] appears","Free [Rarity] appears",
 		"Free [Rainbow Dash] appears","Free [Starlight] appears","Free [Twilight] appears"]
+	},
+	{
+		"name": "Summer Sun Monument",
+		"isWonder": true,
+		"uniqueTo": "Solar Empire",
+		"culture": 10,
+		"faith": 6,
+		"requiredTech": "Elements of Harmony",
+		"uniques": ["Triggers a global alert upon completion", "Free [Daybreaker] appears"]
+	},
+	{
+		"name": "Castle of the Two Sisters",
+		"isWonder": true,
+		"uniqueTo": "Lunar Empire",
+		"culture": 10,
+		"faith": 6,
+		"requiredTech": "Principles of Loyalty",
+		"uniques": ["Triggers a global alert upon completion", "Free [Nightmare Moon] appears"]
+	},
+	{
+		"name": "Chrysalis' Throne",
+		"isWonder": true,
+		"uniqueTo": "Changeling Lands",
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"culture": 8,
+		"faith": 6,
+		"requiredTech": "Archaeology",
+		"uniques": ["Triggers a global alert upon completion", "Free [Chrysalis] appears", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Crystal Heart",
+		"isWonder": true,
+		"uniqueTo": "Crystal Empire",
+		"food": 4,
+		"culture": 8,
+		"faith": 8,
+		"happiness": 4,
+		"requiredTech": "Climate Control",
+		"uniques": ["Triggers a global alert upon completion", "Free [Cadence] appears"]
 	}
 ]
