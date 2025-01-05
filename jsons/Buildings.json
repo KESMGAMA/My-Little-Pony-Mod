@@ -585,6 +585,6 @@
 		"faith": 8,
 		"happiness": 4,
 		"requiredTech": "Climate Control",
-		"uniques": ["Triggers a global alert upon completion", "Free [Cadence] appears"]
+		"uniques": ["Triggers a global alert upon completion", "Free [Cadance] appears"]
 	}
 ]
