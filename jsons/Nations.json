@@ -1,7 +1,7 @@
 [
   {
-		"name": "Spectator",
-		"outerColor": [255,255,255],
+    "name": "Spectator",
+    "outerColor": [255,255,255],
     "innerColor": [0,0,0]
 	},
 
@@ -47,6 +47,92 @@
 
 
   {
+    "name": "Solar Empire",
+    "style": "Pony",
+    "leaderName": "Daybreaker",
+    "adjective": [
+      "solar"
+    ],
+    "startBias": ["Avoid [Tundra]","Avoid [Snow]","Avoid [Desert]"],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "Your nation represents a threat to our empire, it's time to destroy you!",
+    "attacked": "You just made the worst mistake of your life!",
+    "defeated": "Even now I have not managed to defend our empire.",
+    "introduction": "I'm Daybreaker, I hope we get along, because I'm willing to protect our empire by all means.",
+    "neutralHello": "What do you want?",
+    "hateHello": "You better get out before there's trouble.",
+    "tradeRequest": "Accept this proposal.",
+    "outerColor": [
+      252,
+      160,
+      0
+    ],
+    "innerColor": [
+      255,
+      0,
+      0
+    ],
+    "favoredReligion": "Alicornism",
+    "uniqueName": "Glory of the Sun",
+    "uniques": [
+      "[+3 Food] [in all cities]"
+    ],
+    "cities": [
+      "New Canterlot","Manehattan","Fillydelphia","Whynnyapolis",
+      "Bales","Ponyville","Cloudsdale","Baltimare",
+      "Rockville","Las Pegasus","Vanhoover","Tall Tale",
+      "Appleloosa","Acomage","Whitebell","Vanhoover",
+      "Coltfoalnia","Tall Woods","Fairflanks","Mareposa",
+      "Lavender","Whinnysota","Trotterfield","Mustangia",
+      "Summerdale","Peachwoods","Hoofington","Duskway"
+    ]
+  },
+
+
+  {
+    "name": "Lunar Empire",
+    "style": "Pony",
+    "leaderName": "Nightmare Moon",
+    "adjective": [
+      "lunar"
+    ],
+    "startBias": ["Avoid [Tundra]","Avoid [Snow]","Avoid [Desert]"],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "The night will last forever!",
+    "attacked": "Fool! You don't know who you're messing with!",
+    "defeated": "Do you think this is over? We'll be back in another thousand years!",
+    "introduction": "I am Nightmare Moon. Join us in eliminating my sister's tyranny and making the night last forever!",
+    "neutralHello": "What?",
+    "hateHello": "I don't have time for you.",
+    "tradeRequest": "Accept this proposal.",
+    "outerColor": [
+      252,
+      160,
+      0
+    ],
+    "innerColor": [
+      255,
+      0,
+      0
+    ],
+    "favoredReligion": "Alicornism",
+    "uniqueName": "Soldiers of the Night",
+    "uniques": [
+      "[+1 Food, +1 Production] from [Lumber mill] tiles [in all cities]"
+    ],
+    "cities": [
+      "Everfree","New Canterlot","Manehattan","Fillydelphia","Whynnyapolis",
+      "Bales","Ponyville","Cloudsdale","Baltimare",
+      "Rockville","Las Pegasus","Vanhoover","Tall Tale",
+      "Appleloosa","Acomage","Whitebell","Vanhoover",
+      "Coltfoalnia","Tall Woods","Fairflanks","Mareposa",
+      "Lavender","Whinnysota","Trotterfield","Mustangia",
+      "Summerdale","Peachwoods","Hoofington","Duskway"
+    ]
+  },
+
+  
+  {
     "name": "Crystal Empire",
     "style": "Pony",
     "leaderName": "Princess Cadence",
@@ -62,7 +148,7 @@
     "defeated": "Our empire may have fallen, but we will return again!",
     "introduction": "Greetings, I am Princess Cadenza, leader of the Crystal Empire.",
     "neutralHello": "Greetings.",
-    "hateHello": "What do you need?",
+    "hateHello": "What do you need",
     "tradeRequest": "Would you accept this proposal?",
     "outerColor": [
       129,
