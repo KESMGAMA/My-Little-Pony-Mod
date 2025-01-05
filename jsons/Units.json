@@ -7,6 +7,7 @@
 		"movement": 3,
 		"strength": 120,
 		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost"],
+		"promotions": ["Cover I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -15,7 +16,7 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 90,
-		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable"],
+		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost"],
 		"promotions": ["Medic","Medic II","Cover I","Cover II"],
 		"attackSound": "whoosh"
 	},
@@ -932,7 +933,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Mystical site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can [Spread Religion] [4] times",
+            "Can Spread Religion",
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
