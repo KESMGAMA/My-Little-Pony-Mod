@@ -70,6 +70,50 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unbuildable","[+40] HP when healing"],
 		"attackSound": "bombing"
 	},
+
+	//TITANS
+	{
+		"name": "Daybreaker",
+		"uniqueTo": "Solar Empire",
+		"unitType": "Flying Magical",
+		"movement": 8,
+		"strength": 600,
+		"rangedStrength": 500,
+		"uniques": ["No defensive terrain bonus","Unbuildable"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Nightmare Moon",
+		"uniqueTo": "Lunar Empire",
+		"unitType": "Flying Magical",
+		"movement": 8,
+		"strength": 550,
+		"rangedStrength": 450,
+		"uniques": ["No defensive terrain bonus","Unbuildable","[+10] HP when healing"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Chrysalis",
+		"uniqueTo": "Changeling Lands",
+		"unitType": "Changeling",
+		"movement": 9,
+		"strength": 300,
+		"rangedStrength": 140,
+		"uniques": ["No defensive terrain bonus","Unbuildable"],
+		"promotions": ["Changeling"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Cadance",
+		"uniqueTo": "Crystal Empire",
+		"unitType": "Flying Magical",
+		"movement": 8,
+		"strength": 260,
+		"rangedStrength": 140,
+		"uniques": ["No defensive terrain bonus","Unbuildable"],
+		"promotions": ["Medic","Medic II","Cover I"],
+		"attackSound": "bombing"
+	},
 	
 	//BASICS
 	{
@@ -724,7 +768,7 @@
 		"upgradesTo": "Nuclear Missile",
 		"obsoleteTech": "Advanced Ballistics",
 		"promotions" : ["Evasion"],
-		"uniques": ["Nuclear weapon of Strength [1]", /*"Only available <if [Manhattan Project] is constructed>",*/ "Self-destructs when attacking",
+		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manehattan Project] is constructed>", "Self-destructs when attacking",
 			"Blast radius [2]"],
 		"attackSound": "nuke"
 	},
@@ -814,7 +858,38 @@
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manehattan Project] is constructed>",
-			"Blast radius [3]","[-100]% maintenance costs"],
+			"Blast radius [3]","Self-destructs when attacking"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Megaspell",
+		"unitType": "Missile",
+		"uniqueTo": "Equestria",
+		"replaces": "Nuclear Missile",
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 200,
+		"range": 12,
+		"cost": 1800,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Crystals",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manehattan Project] is constructed>",
+			"Blast radius [4]","Self-destructs when attacking", "[-100]% maintenance costs"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Tsar Spell",
+		"unitType": "Missile",
+		"uniqueTo": "Stalliongrad",
+		"movement": 1,
+		"strength": 400,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 5000,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Uranium",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manehattan Project] is constructed>",
+			"Blast radius [5]","Self-destructs when attacking", "Limited to [1] per Civilization"],
 		"attackSound": "nuke"
 	},
 	{
