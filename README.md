@@ -1,6 +1,6 @@
 # My-Little-Pony-Mod
 
-This mod is based on the American series "My Little Pony: Friendship is Magic", and is complemented by the HOI4 mod "Equestria at War" (mainly in the name of the nations and their cities) and in the Fanfiction "Fallout Equestria". Currently the mod has 6 playable nations, but they will increase in the future.
+This mod is based on the American series "My Little Pony: Friendship is Magic", and is complemented by the HOI4 mod "Equestria at War" (mainly in the name of the nations and their cities) and in the Fanfiction "Fallout Equestria". Currently the mod has 11 playable nations, but they will increase in the future.
 
 Developed by @KESM GAMA.
 
@@ -8,7 +8,7 @@ Most of the icons were created from original images from the series, and the cac
 
 ###Español###
 
-Este mod está basado en la serie estadounidense "My Little Pony: La Magia de la Amistad", y está complementada con el mod de HOI4 "Equestria at War" (principalmente en el nombre de las naciones y sus ciudades) y en el Fanfiction "Fallout Equestria". Actualmente el mod cuenta con 6 naciones jugables, pero aumentarán en el futuro.
+Este mod está basado en la serie estadounidense "My Little Pony: La Magia de la Amistad", y está complementada con el mod de HOI4 "Equestria at War" (principalmente en el nombre de las naciones y sus ciudades) y en el Fanfiction "Fallout Equestria". Actualmente el mod cuenta con 11 naciones jugables, pero aumentarán en el futuro.
 
 Desarrollado por @KESM GAMA.
 
