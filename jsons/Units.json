@@ -99,8 +99,21 @@
 		"movement": 9,
 		"strength": 300,
 		"rangedStrength": 140,
+		"upgradesTo": "Thorax",
 		"uniques": ["No defensive terrain bonus","Unbuildable"],
 		"promotions": ["Changeling"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Thorax",
+		"uniqueTo": "Changeling Lands",
+		"unitType": "Changeling",
+		"movement": 9,
+		"strength": 380,
+		"rangedStrength": 100,
+		"requiredTech": "Scientific Theory",
+		"uniques": ["No defensive terrain bonus", "Unbuildable", "[+20] HP when healing"],
+		"promotions": ["Changeling","Cover I","Cover II"],
 		"attackSound": "bombing"
 	},
 	{
