@@ -251,7 +251,7 @@
   },
 
 
-  //CHANELING
+  //CHANGELING
   {
     "name": "Changeling Lands",
     "style": "Changeling",
@@ -443,6 +443,42 @@
       "Griffenheim","Interriver","Crona","King's Realm",
       "Brantbeak","Readewetter","De Vleugels","Bronzekreus",
       "Oldwingburg","Romau","Greenback","Griffing"
+    ]
+  },
+
+
+  //Deer
+  {
+    "name": "Olenia",
+    "style": "Pony", //CHANGE
+    "leaderName": "King Johan",
+    "adjective": ["olenian"],
+    "startBias": ["Forest"],
+    "preferredVictoryType": "Cultural",
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+    "neutralHello": "",
+    "hateHello": "",
+    "tradeRequest": "",
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "innerColor": [
+      157,
+      181,
+      232
+    ],
+    "favoredReligion": "Star Swirl's Followers",
+    "uniqueName": "",
+    "uniques": [
+      "[+10]% Production when constructing [Melee Water] units [in all cities]"
+    ],
+    "cities": [
+      "Hjortland","Cervus","Vaverfront"
     ]
   },
 
