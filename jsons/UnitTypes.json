@@ -22,7 +22,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Flying Magical",
+        "name": "Powerful",
         "movementType": "Land",
         "uniques": ["[+1] Sight","Can pass through impassable tiles","[+10]% Strength <vs [Sword] units>","[+10]% Strength <vs [Flying] units>","[-50]% Strength <when fighting in [Badlands] tiles>"]
     },
