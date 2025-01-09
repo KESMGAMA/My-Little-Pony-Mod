@@ -46,14 +46,14 @@
 		"movement": 3,
 		"strength": 100,
 		"rangedStrength": 115,
-		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","Uncapturable","[+1] Sight"],
+		"uniques":["Unbuildable","[+20] HP when healing","Ignores terrain cost","[+1] Sight"],
 		"promotions": ["Cover I","Cover II"],
 		"attackSound": "bombing"
 	},
 	{
 		"name": "Starlight",
 		"uniqueTo": "Equestria",
-		"unitType": "Flying Magical",
+		"unitType": "Powerful",
 		"movement": 4,
 		"strength": 120,
 		"rangedStrength": 140,
@@ -63,7 +63,7 @@
 	{
 		"name": "Twilight",
 		"uniqueTo": "Equestria",
-		"unitType": "Flying Magical",
+		"unitType": "Powerful",
 		"movement": 8,
 		"strength": 120,
 		"rangedStrength": 160,
@@ -75,7 +75,7 @@
 	{
 		"name": "Daybreaker",
 		"uniqueTo": "Solar Empire",
-		"unitType": "Flying Magical",
+		"unitType": "Powerful",
 		"movement": 8,
 		"strength": 600,
 		"rangedStrength": 500,
@@ -85,7 +85,7 @@
 	{
 		"name": "Nightmare Moon",
 		"uniqueTo": "Lunar Empire",
-		"unitType": "Flying Magical",
+		"unitType": "Powerful",
 		"movement": 8,
 		"strength": 550,
 		"rangedStrength": 450,
@@ -95,19 +95,19 @@
 	{
 		"name": "Chrysalis",
 		"uniqueTo": "Changeling Lands",
-		"unitType": "Changeling",
+		"unitType": "Powerful",
 		"movement": 9,
 		"strength": 300,
 		"rangedStrength": 140,
 		"upgradesTo": "Thorax",
-		"uniques": ["No defensive terrain bonus","Unbuildable"],
+		"uniques": ["No defensive terrain bonus","Unbuildable","[+20]% Strength <vs [Powerful] units>"],
 		"promotions": ["Changeling"],
 		"attackSound": "bombing"
 	},
 	{
 		"name": "Thorax",
 		"uniqueTo": "Changeling Lands",
-		"unitType": "Changeling",
+		"unitType": "Powerful",
 		"movement": 9,
 		"strength": 380,
 		"rangedStrength": 100,
@@ -119,13 +119,26 @@
 	{
 		"name": "Cadance",
 		"uniqueTo": "Crystal Empire",
-		"unitType": "Flying Magical",
+		"unitType": "Powerful",
 		"movement": 8,
 		"strength": 260,
 		"rangedStrength": 140,
 		"uniques": ["No defensive terrain bonus","Unbuildable"],
 		"promotions": ["Medic","Medic II","Cover I"],
 		"attackSound": "bombing"
+	},
+
+	//BARBARIANS
+	{
+		"name": "Windigo",
+		"unitType": "Powerful",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 120,
+		"rangedStrength": 200,
+		"cost": 250,
+		"uniques": ["No defensive terrain bonus","Limited to [3] per Civilization","Can pass through impassable tiles","Can only heal by pillaging","Triggers a global alert upon completion"],
+		"attackSound": "nuke"
 	},
 	
 	//BASICS
@@ -339,7 +352,7 @@
 	},
 	{
 		"name": "E.U.P.",
-		"unitType": "Flying Magical",
+		"unitType": "Powerful",
 		"uniqueTo": "Equestria",
 		"replaces": "Knight",
 		"movement": 4,
@@ -490,6 +503,19 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Titan Hunter",
+		"unitType": "Magical",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 185,
+		"requiredTech": "Anthropology",
+		"requiredResource": "Crystals",
+		"uniques": ["Ignores terrain cost","[+800]% Strength <vs [Powerful] units>","Limited to [3] per Civilization","Can move after attacking","Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "bombing"
+	},
+	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
 		"movement": 3,
@@ -529,6 +555,21 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
+	},
+	{
+		"name": "Spell",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 6,
+		"cost": 250,
+		"requiredTech": "New Magical Artifacs",
+		"requiredResource": "Crystals",
+		"promotions" : ["Evasion"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Self-destructs when attacking",
+			"Blast radius [1]"],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Artillery",
@@ -955,6 +996,14 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Flying Machine] units>"],
 		"attackSound": "jetgun"
+	},
+	{
+		"name": "Liquidator",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Fallout Theory",
+		"uniques": ["Can build [Remove Fallout] improvements on tiles", "Unit will heal every turn, even if it performs an action", "[100] HP when healing", "Double movement in [Fallout]"],
+		"cost": 150
 	},
 	{
 		"name": "Giant Death Robot",
