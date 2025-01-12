@@ -491,6 +491,15 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Medical Camp",
+		"unitType": "Civilian",
+		"movement": 1,
+		"cost": 300,
+		"requiredResource": "Crystals",
+		"requiredTech": "Elements of Harmony",
+		"uniques": ["All adjacent units heal [15] HP when healing", "Uncapturable", "Requires at least [10] population", "Limited to [3] per Civilization"]
+	},
+	{
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
