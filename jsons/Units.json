@@ -564,7 +564,7 @@
 		"rangedStrength": 90,
 		"range": 6,
 		"cost": 250,
-		"requiredTech": "New Magical Artifacs",
+		"requiredTech": "New Magical Artifacts",
 		"requiredResource": "Crystals",
 		"promotions" : ["Evasion"],
 		"uniques": ["Nuclear weapon of Strength [1]", "Self-destructs when attacking",
