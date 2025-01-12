@@ -460,7 +460,8 @@
 		"upgradesTo": "Zeppelin",
 		"obsoleteTech": "Flight",
 		"uniques": ["[+2] Sight","No defensive terrain bonus", "Can move after attacking","[+100]% Strength <vs cities> <when attacking>",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -652,8 +653,10 @@
 		"requiredTech": "Flight",
 		"upgradesTo": "Helicopter Gunship",
 		"obsoleteTech": "Computers",
-		"uniques": ["[+2] Sight","[50]% chance to intercept air attacks","No defensive terrain bonus", "Can move after attacking","[+100]% Strength <vs cities> <when attacking>",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit","Can carry [1] [Aircraft] units","May withdraw before melee ([30]%)"],
+		"uniques": ["[+2] Sight","[50]% chance to intercept air attacks","No defensive terrain bonus", "Can move after attacking",
+			"[+100]% Strength <vs cities> <when attacking>","All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities",
+			"Never appears as a Barbarian unit","Can carry [1] [Aircraft] units","May withdraw before melee ([30]%)",
+			"May travel on Water tiles without embarking"],
 		"attackSound": "bombing"
 	},
 	{
